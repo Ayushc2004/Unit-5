@@ -8,7 +8,7 @@ export const LaptopProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get('https://my-json-server.typicode.com/Rohitap132/react-native-cli/db')
+        axios.get('https://my-json-server.typicode.com/Ayushc2004/REST-API')
             .then((res) => {
                 setCars(res.data);
                 setLoading(false);
